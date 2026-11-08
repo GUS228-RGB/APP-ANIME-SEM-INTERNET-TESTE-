@@ -1,0 +1,23 @@
+name: animeflix
+description: AnimeFlix - plataforma de animes com biblioteca offline (Linux e Android)
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.7.0
+  path: ^1.9.0
+  path_provider: ^2.1.4
+  sqlite3: ^2.4.6
+  sqlite3_flutter_libs: ^0.5.24
+  file_picker: ^8.1.2
+  media_kit: ^1.1.11
+  media_kit_video: ^1.2.5
+  media_kit_libs_video: ^1.0.5
+
+flutter:
+  uses-material-design: true
